@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garš Brūns Žogs</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #87CEEB;
+        }
+        .fence {
+            display: flex;
+            gap: 5px;
+            padding: 10px;
+        }
+        .plank {
+            width: 20px;
+            height: 150px;
+            background-color: saddlebrown;
+            border-radius: 5px;
+            border: 2px solid #5a3e1b;
+        }
+    </style>
+</head>
+<body>
+    <div class="fence">
+        <script>
+            for (let i = 0; i < 30; i++) {
+                document.write('<div class="plank"></div>');
+            }
+        </script>
+    </div>
+</body>
+</html>
